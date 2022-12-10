@@ -23,7 +23,7 @@ foreach ($directory in $directories) {
     $rel = $src.Replace($cd, '');
     $dst = "output${rel}";
     $dstDir = "${dst}\..";
-    $overlay = "ja${rel}";
+    $overlay = "ja${rel}".Replace('.jpg', '.png');
     if (!(Test-Path $dstDir)) {
       New-Item $dstDir -ItemType Directory;
     }
