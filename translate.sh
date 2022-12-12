@@ -1,3 +1,8 @@
+if !(type convert >/dev/null 2>&1); then
+  echo "Error: Imagemagickがインストールされていません"
+  exit 1
+fi
+
 target="Paper Memories"
 
 if [ ! -d "${target}" ]; then
@@ -6,7 +11,10 @@ if [ ! -d "${target}" ]; then
 fi
 
 directories=(
+  "1. MAIN COMICS"
   "2. Misc. Artwork"
+  "3. Impostor Factory"
+  "4. Rebate for Merchandise"
 )
 for directory in "${directories[@]}"; do
   find "${target}/${directory}" -type f | while read src;
