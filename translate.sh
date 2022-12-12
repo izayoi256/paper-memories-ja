@@ -30,3 +30,5 @@ for directory in "${directories[@]}"; do
     fi
   done
 done
+
+read -p "パッチを反映してoutputディレクトリに出力しました。Enterを押して終了"
