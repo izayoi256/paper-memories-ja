@@ -31,3 +31,15 @@ Windows版の場合、インストールのオプションで `Add application d
    - Windowsの場合: `translate.bat` を実行。
    - Linuxの場合: `translate.sh` を実行。
 5. `output` ディレクトリに、パッチを適用した画像が出力されます。
+
+## クレジット
+
+- フォント:
+  - [源暎アンチック](https://okoneya.jp/font/genei-antique.html)
+  - [源暎ラテゴ](https://okoneya.jp/font/genei-latin.html)
+  - [id-カナ003](https://idfont.jp/free-kanji/free-kana.html)
+  - [イバラ字](https://booth.pm/ja/items/2451506)
+  - [うずらフォント](https://azukifont.com/font/uzura.html)
+  - [851手書き雑フォント](https://pm85122.onamae.jp/851fontpage.html)
+  - [ふい字](https://forest.watch.impress.co.jp/library/software/fuiji/)
+  - [ゆたぽん(コーディング)](https://net2-system.top/service/service1)
